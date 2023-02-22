@@ -1,0 +1,140 @@
+$nav-font:Verdana, Geneva, Tahoma, sans-serif; 
+$h3-font: 'Roboto', sans-serif;
+
+@mixin tablet {
+  @media only screen and (min-width: 768px){
+    @content;}
+  }
+
+  @mixin desktop {
+    @media only screen and (min-width: 992px){
+      @content;}
+  }
+
+  @mixin large {
+    @media only screen and (min-width: 1200px){
+      @content; }
+  }
+
+ /* Index */
+body header{  
+  h1{ -webkit-text-stroke: 5px;
+-webkit-text-fill-color: $h1-color;
+font-family: monospace;
+font-size: 50px;
+font-weight: 150;
+text-transform: uppercase;  
+letter-spacing: 2px;
+color: rgb(0, 0, 0);
+text-align: center;
+
+@include tablet{
+  font-size: 90px;
+  font-weight: 800;
+  }
+}
+  
+@include desktop {
+  font-size: 90px;
+  font-weight: 800;}
+}
+
+article div{
+    h2{margin: 15px;
+        padding: 25px;
+        background-color: rgb(220, 220, 220);
+        color:#0f406b;
+        text-align: center;
+        opacity: calc(0.4); 
+      }
+    }
+     
+nav {
+    div{margin: 2px;
+        padding: 4px;
+        font-family: $nav-font;
+        text-align: center;
+       }
+        a{ 
+        font-size: 20px; 
+        color: #090069;  
+      }
+    }
+
+article div { 
+    h3{background-color: $background1;
+      border: 3px outset black;
+      font-family:$h3-font;
+        margin: 8px ;
+        padding: 20px; 
+        color:#0c5130;
+      text-align: center;
+      }
+    }
+    
+/* Quienes somos */
+
+section article div{
+  h4 { font-size: 18px;
+    padding: 20px;
+    background-color: $background1;
+    font-family: $h3-font;
+    letter-spacing: 2px;
+    border: 3px double;
+    border-color: rgb(0, 0, 0);
+    
+    @include tablet{
+      font-size: 28px;
+      padding: 10px;
+      }   
+    @include desktop{
+      font-size:35px; 
+      padding: 20px;
+      } 
+ 
+  }
+}
+
+/* Tienda  */
+
+section h6{background-color: $background1;
+  margin: 25px;
+  padding: 10px;
+  
+  font-size: 45px;
+  text-align: center;   
+}
+
+section div{
+  p{ 
+    font-size: 20px;                                                                                                                                 
+}
+}
+
+/* FlyCasting  */
+
+section article{
+  dt{padding: 2px;
+    font-size: 25px;
+    font-family:$h3-font;
+    border: 5px dashed black;
+    @include tablet{
+      margin: 25px;
+      padding: 1cm;
+    }   
+    @include desktop{
+      margin: 25px;
+      padding: 1cm;
+    }
+  }
+}
+
+  /* footer  */
+footer div {
+  align-items: center;
+
+  a{ font-family: $h3-font;
+
+}
+}
+

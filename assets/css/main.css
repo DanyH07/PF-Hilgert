@@ -1,0 +1,114 @@
+article div h5 {
+  border: 3px solid black;
+  text-align: center; }
+
+article div img {
+  border: 7px solid black; }
+
+article div a {
+  color: black;
+  font-size: 25px; }
+
+section div img {
+  border: 2px solid black; }
+
+section article div img {
+  margin: 5px; }
+
+/* Index */
+body header h1 {
+  -webkit-text-stroke: 5px;
+  -webkit-text-fill-color: #21faa7;
+  font-family: monospace;
+  font-size: 50px;
+  font-weight: 150;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: black;
+  text-align: center; }
+  @media only screen and (min-width: 768px) {
+    body header h1 {
+      font-size: 90px;
+      font-weight: 800; } }
+
+@media only screen and (min-width: 992px) {
+  body header {
+    font-size: 90px;
+    font-weight: 800; } }
+
+article div h2 {
+  margin: 15px;
+  padding: 25px;
+  background-color: gainsboro;
+  color: #0f406b;
+  text-align: center;
+  opacity: calc(0.4); }
+
+nav div {
+  margin: 2px;
+  padding: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center; }
+
+nav a {
+  font-size: 20px;
+  color: #090069; }
+
+article div h3 {
+  background-color: #f3fff5f2;
+  border: 3px outset black;
+  font-family: "Roboto", sans-serif;
+  margin: 8px;
+  padding: 20px;
+  color: #0c5130;
+  text-align: center; }
+
+/* Quienes somos */
+section article div h4 {
+  font-size: 18px;
+  padding: 20px;
+  background-color: #f3fff5f2;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  border: 3px double;
+  border-color: black; }
+  @media only screen and (min-width: 768px) {
+    section article div h4 {
+      font-size: 28px;
+      padding: 10px; } }
+  @media only screen and (min-width: 992px) {
+    section article div h4 {
+      font-size: 35px;
+      padding: 20px; } }
+
+/* Tienda  */
+section h6 {
+  background-color: #f3fff5f2;
+  margin: 25px;
+  padding: 10px;
+  font-size: 45px;
+  text-align: center; }
+
+section div p {
+  font-size: 20px; }
+
+/* FlyCasting  */
+section article dt {
+  padding: 2px;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  border: 5px dashed black; }
+  @media only screen and (min-width: 768px) {
+    section article dt {
+      margin: 25px;
+      padding: 1cm; } }
+  @media only screen and (min-width: 992px) {
+    section article dt {
+      margin: 25px;
+      padding: 1cm; } }
+
+/* footer  */
+footer div {
+  align-items: center; }
+  footer div a {
+    font-family: "Roboto", sans-serif; }
